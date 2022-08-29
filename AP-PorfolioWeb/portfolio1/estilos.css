@@ -1,0 +1,459 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Quicksand, sans-serif;
+	;
+
+}
+
+
+/* estilos del header */
+
+.titulo {
+
+	margin: 0 auto;
+	padding: 40px;
+	margin-top: 80px;
+	background-size: 100vw 100hw;
+	max-width: 1200px;
+	background-position: center;
+}
+
+.botones {
+	color: #f9db5c;
+	text-decoration: none;
+
+}
+
+
+header .titulo h1 {
+	text-decoration-thickness: 10px;
+	font-size: 81px;
+	color: #efb810;
+	text-align: center;
+
+}
+
+header .titulo h2 {
+	font-size: 35px;
+	color: #fff;
+	margin-left: 100px;
+}
+
+header .titulo p {
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+header,
+footer {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+header nav {
+	background: #000;
+	overflow: hidden;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li {
+	float: right;
+}
+
+header nav ul li a {
+	padding: 20px 20px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	margin-top: 10px
+}
+
+header nav ul li a:hover {
+	background: rgba(0, 0, 0, 0.2);
+	color: #fff;
+	transition: 0.4s;
+}
+
+.boton-header {
+	background-color: #1d809f;
+	color: #efb810;
+	padding: 8px 35px;
+	border-radius: 15px;
+}
+
+.boton-header:hover {
+	background: rgba(0, 0, 0, 0.2);
+	color: #efb810;
+	transition: 0.4s;
+}
+
+
+/* estilos del footer */
+
+footer {
+	background: #1d809f;
+	margin-top: 30px;
+	font-size: 15px;
+	color: white;
+	clear: both;
+	padding: 10px 0px;
+	text-align: center;
+}
+
+footer a {
+	color: #fff;
+	padding: 5px;
+	font-size: 20px;
+	text-decoration: none;
+	margin: 5px;
+	transition: 0.4s;
+}
+
+footer a:hover {
+	color: #283747;
+	cursor: pointer;
+}
+
+footer a:active {
+	transform: scale(1.05);
+}
+
+/* estilos de tarjetas */
+
+#contenedor-tarjeta,
+#contenedor-tarjetas-proyectos,
+#contacto {
+	background: #000;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	max-width: 1200px;
+}
+
+#contenedor-tarjetas-proyectos h3 {
+	text-align: center;
+	font-size: 35px;
+	color: #ccc;
+}
+
+.titulo-tarjetas {
+	color: #efb810;
+}
+
+.tarjeta img {
+	width: 100%;
+}
+
+#arg-pro {
+	margin: 20px auto;
+}
+
+.tarjeta {
+	width: 60%;
+	margin-left: 350px;
+	margin-top: 50px;
+	background: #fff;
+	padding: 25px;
+	text-align: center;
+	box-shadow: 1px 1px 11px #00000030;
+	transition: 0.6s;
+
+}
+
+h2 {
+	font-size: 16px;
+	color: #aaa;
+}
+
+.detalle {
+	color: #34495E;
+}
+
+.tarjeta a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #85929E;
+	padding: 5px 10px;
+}
+
+.tarjeta:hover {
+	transform: scale(1.05);
+}
+
+
+/* estilos informacion personal */
+
+#contenedor-informacion-personal {
+	margin: auto;
+	max-width: 1200px;
+	background-color: #000;
+}
+
+.info img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.info .link {
+	color: #fff;
+	font-size: 15px;
+	padding: 12px;
+}
+
+#info {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+}
+
+.info {
+	width: 62%;
+	background: #000;
+	padding: 25px;
+	text-align: center;
+
+}
+
+.info h2 {
+	font-size: 16px;
+	color: #aaa;
+}
+
+.info .detalle {
+	color: #34495E;
+}
+
+.info .parrafo {
+	line-height: 16px;
+	text-align: initial;
+	color: #fff;
+}
+
+.icons {
+	text-decoration: none;
+	font-size: 25px;
+	color: #fff;
+	padding: 5px 10px;
+	transition: 0.4s;
+}
+
+.info a:hover {
+	color: #AEB6BF;
+	cursor: pointer;
+}
+
+.info a:active {
+	transform: scale(1.05);
+
+}
+
+.texto-contacto {
+	color: white;
+}
+
+/*estilos de seccion formularios */
+.contacto {
+	margin: auto;
+	max-width: 1200px;
+	background: #000;
+}
+
+#contacto {
+	background-image: url(imagenes/contacto.jpg);
+	width: 100%;
+	margin: 20px auto;
+	max-width: 1200px;
+}
+
+.contenedor-formularios {
+	width: 450px;
+	margin: 20px auto;
+	background: #1d809f;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+}
+
+input,
+textarea {
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;
+}
+
+textarea {
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+
+.tituloformulario {
+	color: #fff;
+	text-align: center;
+}
+
+.parrafoformulario {
+	color: #fff;
+}
+
+#boton {
+	background-color: #31384A;
+	color: #f9db5c;
+	padding: 20px;
+	transition: 0.4s;
+}
+
+#boton:hover {
+	background: #34495E;
+	cursor: pointer;
+}
+
+.iconos {
+	display: none;
+}
+
+@media (max-width: 480px) {
+	form {
+		width: 100%;
+	}
+
+	.link-repositorio {
+		display: none;
+	}
+
+	header .titulo h1 {
+		font-size: 25px;
+		color: #ccc;
+		margin-left: 0px;
+	}
+
+	header .titulo h2 {
+		font-size: 18px;
+		color: #f9db5c;
+		margin-left: 0px;
+	}
+
+	header .titulo p {
+		font-size: 10px;
+		color: #ccc;
+		margin-left: 0;
+	}
+
+	.boton-header {
+		background-color: #31384A;
+		color: #fff;
+		padding: 5px 10px;
+		margin-left: 0px;
+		border-radius: 15px;
+	}
+
+
+	.menu {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.tarjeta-proyectos img {
+		width: 100%;
+		float: left;
+		margin: 10px;
+	}
+}
+
+/* estilos seccion proyectos */
+.tarjeta-proyectos {
+	background: #fff;
+	width: 80%;
+	margin: 20px;
+	padding: 25px;
+	text-align: center;
+	border-radius: 8px;
+	box-shadow: 1px 1px 11px #00000030;
+	float: left;
+	transition: 0.4s;
+}
+
+.tarjeta-proyectos img {
+	width: 60%;
+	float: left;
+	margin: 10px;
+}
+
+.tarjeta-proyectos-info h2 {
+	text-align: left;
+	margin: 10px;
+}
+
+.tarjeta-proyectos-info {
+	text-align: left;
+	margin-left: 20px;
+}
+
+.tarjeta-proyectos-info li {
+	list-style: none;
+}
+
+.icon-github:before {
+	display: inline-block;
+	color: white;
+	font-size: 30px;
+	margin-right: 5px;
+}
+
+.icon-linkedin:before {
+	display: inline-block;
+	color: white;
+	font-size: 30px;
+}
+
+h3 {
+	padding: 20px;
+}
+
+/* seccion mas a cerca de mi */
+.contenedor-masdemi {
+	margin: 0 auto;
+	padding: 20px;
+	text-align: justify;
+	background-image: url(imagenes/fondo-masdemi-3.jpg);
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	background-position: center;
+	max-width: 1200px;
+}
+
+.contenedor-masdemi h3 {
+	color: red;
+	text-shadow: 1px 0px 0px black,
+		0px 1px 0px black,
+		-1px 0px 0px black,
+		0px -1px 0px black;
+	text-align: center;
+	font-size: 25px;
+}
+
+.tarjeta-masdemi-info {
+	font-family: verdana;
+	font-size: 20px;
+	color: yellow;
+	text-shadow: 1px 0px 0px black,
+		0px 1px 0px black,
+		-1px 0px 0px black,
+		0px -1px 0px black;
+	margin: 40px auto;
+
+}
